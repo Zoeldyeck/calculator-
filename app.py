@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np
-
+import streamlit.components.v1 as components 
 # Title for the calculator app
 st.title("Streamlit Calculator")
 tracking_code= """
