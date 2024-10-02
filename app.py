@@ -3,7 +3,18 @@ import numpy as np
 
 # Title for the calculator app
 st.title("Streamlit Calculator")
+tracking_code= """
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P7D2VEJGE6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-P7D2VEJGE6');
+</script>
+"""
+componenets.html(tracking_code, height=0)
 # Sidebar for selecting basic or advanced mode
 mode = st.sidebar.selectbox("Select Mode", ["Basic", "Advanced"])
 
