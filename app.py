@@ -14,7 +14,7 @@ tracking_code= """
   gtag('config', 'G-P7D2VEJGE6');
 </script>
 """
-componenets.html(tracking_code, height=0)
+components.html(tracking_code, height=0)
 # Sidebar for selecting basic or advanced mode
 mode = st.sidebar.selectbox("Select Mode", ["Basic", "Advanced"])
 
