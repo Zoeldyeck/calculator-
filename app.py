@@ -8,7 +8,7 @@ st.title("Streamlit Calculator")
 mode = st.sidebar.selectbox("Select Mode", ["Basic", "Advanced"])
 
 if mode == "Basic":
-    st.header("Basic Calculator")
+    st.header("Normal Calculator")
     
     # Input fields for numbers
     num1 = st.number_input("Enter the first number:", value=0.0, step=0.1)
